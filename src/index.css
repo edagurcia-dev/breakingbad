@@ -1,13 +1,54 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto Slab', serif;
+  background-image: url('./breakingbad.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #147335;
+  color: #000000;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  color: #ffffff;
+}
+
+.card {
+  opacity: .6;
+  background-color: #736B02;
+  color: #000000;
+  font-weight: 700;
+}
+
+.btn-Green {
+  background-color: #274001;
+  color: #ffffff;
+}
+
+.btn-primary:hover {
+  background-color: #736B02;
+  color: #ffffff;
+}
+
+img {
+  background-color: #ffffff;
+  opacity: .8;
+  border-radius: 50%;
+}
+
+@media (max-width: 740px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.4rem;
+  }
+  h3 {
+    font-size: 1.3rem;
+  }
+  h4 {
+    font-size: 1.2rem;
+  }
+  h5 {
+    font-size: 1.1rem;
+  }
 }
